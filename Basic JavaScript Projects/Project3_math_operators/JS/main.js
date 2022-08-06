@@ -6,3 +6,11 @@ function toCelsius(fahrenheit) {
 function subtraction_Function() {
     document.write("-Click to check the date and time in your location <br>");
 }
+
+ var X=5;
+ X++;
+ document.write(X)
+
+ var X=5.25;
+ X--;
+ document.write(X);

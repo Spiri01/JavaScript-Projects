@@ -1,61 +1,75 @@
+body {
+	background-color: darkblue;
+}
+
+h1 {
+	font-family: Helvetica;
+	color: white;
+	text-align: center;
+}
+h3 {
+	font-family: Arial;
+	color: snow;
+}
+
+div {
+	color: lightyellow;
+    font-family: Monospace;
+}
 #menuBG {
-    width: 650px;
-    height: 750px;
-    margin: 10px auto;
-    background: rgb(32, 32, 201);
-    font-size: 15px;
-    outline: none;
-    font-weight: 600;
-    color: #f1f1f3;
-    padding: 12px 12px;
-    border: 1px solid #3311b1;
-    border-radius: 7px;
-    background: rgb(93, 40, 240);
-    box-shadow: 2px 3px 3px 0px rgba(0,0,0,0.3);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
+	width:400px;
+	height:470px;
+	margin:10px auto;
+	}
+
 #frmMenu {
-    width: 700px;
-    height: 400px;
-}
+	width:600px;
+	height:200px;
+	}
+
 #totalPrice {
-    top:0;margin: 0px right;
-    width: 200px;
-    height: 700px;
-}
+	width:750px;
+	height:190px;
+	margin:20px auto;
+	float:right;
+	}
 
 .left {
-    width: 200px;
-    height: 200px;
-    float: left;
-}
-.right {
-    width: 200px;
-    height: 200px;
-    float: right;
-}
-#showText {
-    width: 200px;
-    height: 250px;
-    margin: 0px auto;
-}
+	width:200px;
+	height:200px;
+	float:left;
+	}
 
+.center {
+	width:200px;
+	height:200px;
+	float:left;
+	}
+	
+.right {
+	width:200px;
+	height:200px;
+	float:right;
+	}
+
+#showText {
+	width:700px;
+	height:190px;
+	margin:0px auto;
+	float:left;
+	}
+		
 #cart {
-    top:0;margin: 0px left;
-    width: 50px;
-    height: 500px;
-}
+	top:0;margin:0px auto;
+	width:700px;
+	height:200px;
+    }
+	
 #btnOrder {
-    margin: 10px 0px 0px 270px;
-    width: 100px;
-    height: 40px;
-}
-h1 {
-    line-height: 50px;
-    font-weight: 900;
-    font-size: 30px;
-    text-transform: uppercase;
-    text-align: center;
-    color: #faf6f6;
-    text-shadow: 2px 2px 3px rgba(0, 0, 0, 5);
-}
+	margin:10px 0px 0px 100px;
+	width:100px;
+	height:40px;
+	display: block;
+	margin: 25px auto;
+	}
+	
